@@ -1,0 +1,24 @@
+title = "HealthEngine Engineering"
+theme = "kube"
+baseURL = "/"
+languageCode = "en-us"
+description = "Solving complex problems at scale to create great healthcare experiences for all Australians."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "HealthEngineAU"
+  github = "healthengineau"
+  email = "support@healthengine.com.au"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "FAQ"
+    weight = -100
+    url = "/faq/"
